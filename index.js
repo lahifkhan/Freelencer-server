@@ -11,7 +11,7 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET);
 app.use(express.json());
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send("Hello from book Nest!");
+  res.send("Hello World!");
 });
 
 // service account key set up
